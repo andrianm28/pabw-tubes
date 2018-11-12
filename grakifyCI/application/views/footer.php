@@ -1,14 +1,36 @@
- <!-- Footer -->
- <footer>
-  <div class="copyright">
-    <p>&copy 2018 - <a href="https:/www.grakify.com">Grakify.com</a></p>
-  </div>
-  <div class="social">
-    <a href="https:/www.instagram.com/grakify" target="_blank" class="ig footer-social">ig</a>
-    <a href="https:/www.twitter.com/grakify_com" target="_blank" class="tweet footer-social">t</a>
-    <a href="https:/www.facebook.com/grakify" target="_blank" class="face footer-social">f</a>
-  </div>
-</footer>
-      <!-- END Footer -->
-
-      
+<!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Grakify 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-whatsapp"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                  <a >Grakify Your Sport!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>

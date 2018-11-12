@@ -1,51 +1,101 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Favicon -->
-    <link rel="icon" href="../assets/img/logograkify.png">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet"> 
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!-- My CSS -->
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <title>Grakify your Sports</title>
+    <link rel="icon" href="assets/img/logograkify.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans|Raleway:bold" rel="stylesheet">
+    
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/agency.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="assets/js/jqBootstrapValidation.js"></script>
+    <script src="assets/js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="assets/js/agency.min.js"></script>
+
+
   </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light ">
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <img src="../assets/img/logoGrakify03.png" alt="Logo Grakify" id="brand-logo">
-        <!-- <a class="navbar-brand" href="#">Grakify</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/logos/grakify.png"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto" >
-            <a class="nav-item nav-link active" href="index">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item btn btn-primary tombol" href="register">Join Us</a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="">Sign In</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-    <!-- End Navbar -->
 
-    <!-- JUMBOTRON -->
-    <div class="jumbotron jumbotron-fluid" style="background-image: url(../assets/img/Sports-Psych-Banner.jpg)">
+    <!-- Header -->
+    <header class="masthead">
       <div class="container">
-        <h1 class="display-4">Grakify <span>Your Sports</span> with us.</h1>
-        <!-- <a href="#" class="btn btn-primary tombol">Get Started</a> -->
+        <div class="intro-text">
+          <div class="intro-lead-in">Welocome To Grakify</div>
+          <div class="intro-heading text-uppercase ">Grakify your sport with us!</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="">Join Now</a>
+        </div>
       </div>
-    </div>
-    <!-- END JUMBOTRON -->
+    </header>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="assets/js/jqBootstrapValidation.js"></script>
+    <script src="assets/js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="assets/js/agency.min.js"></script>
