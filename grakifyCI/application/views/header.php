@@ -59,13 +59,13 @@
               <a class="nav-link js-scroll-trigger" href="">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="">Features</a>
+              <a class="nav-link js-scroll-trigger" href="">Grakvenue</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="">About</a>
+              <a class="nav-link js-scroll-trigger" href="">Grakmates</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="">Grakmotive</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="">Sign In</a>
@@ -74,17 +74,6 @@
         </div>
       </div>
     </nav>
-
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">Welocome To Grakify</div>
-          <div class="intro-heading text-uppercase ">Grakify your sport with us!</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="">Join Now</a>
-        </div>
-      </div>
-    </header>
 
     <!-- Bootstrap core JavaScript -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>

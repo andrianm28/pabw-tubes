@@ -36,9 +36,10 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   font-family: 'Raleway', sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
+  font-style: bold;
 }
 
 section h3.section-subheading {
@@ -47,7 +48,7 @@ section h3.section-subheading {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -239,15 +240,28 @@ header.masthead .intro-text .intro-heading {
 }
 
 
-.feature-heading {
-  margin: 0px;
+#feature .feature-heading {
+  margin: 25px;
   text-transform: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif; 
+  letter-spacing: 8px;
 }
 
-#category{
+section#category{
   background-color: #b22222;
 }
+
+#category .category-heading {
+  margin: 25px;
+  text-transform: none;
+  font-family: 'Raleway', sans-serif; 
+  letter-spacing: 15px;
+  color: #212529;
+}
+
+
+
+
 
 
 #portfolio .portfolio-item {
