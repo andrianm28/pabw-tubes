@@ -12,7 +12,8 @@ halaman :
 7. Features
 
 
-framework : laravel 5.7., Bootstrap 4.1.3.
+framework : CodeIgniter 3
+
 
 
 
