@@ -1,32 +1,36 @@
 /* Navbar */
 
-.navbar{
+#navbars{
     position: relative;
     z-index: 1;
+    background-color: #1e0606;
 }
+
 #brand-logo{
     width: 14%;
     height: 14%;
     margin-right: 30px;
 }
+
 .navbar-brand{
     font-family: Viga;
     font-size: 32px;
+    color: 003300;
 }
 
 .nav-link{
     text-transform: uppercase;
-    margin-right: 30px;
-    
+    margin-right: 30px;    
 }
 .nav-link:visited{
-    background: #b22222;
+    background: black;
 }
 
 .navbar-brand, .nav-link{
     color: #b22222 !important;
     font-weight: 500;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+    
+    
 }
 
 .btn-primary{
