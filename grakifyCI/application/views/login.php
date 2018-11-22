@@ -5,7 +5,7 @@
     <div class="row user-form">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto ">
         <div class="card card-signin my-5">
-			<div class="login100-form-avatar">
+	<div class="login100-form-avatar">
             <img src="../img/logograkify.png" alt="AVATAR">
           </div>
           <div class="card-body panel-form">
