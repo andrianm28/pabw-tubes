@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Page extends CI_Controller {
+class Page extends CI_Controller
+{
 
 	/**
 	 * Index Page for this controller.
@@ -25,16 +26,16 @@ class Page extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('index');
-    }
-    public function view($page = 'index')
+	}
+	public function view($page = 'index')
 	{
-		if (!file_exists(APPPATH."views/".$page.'.php')) {
+		if (!file_exists(APPPATH . "views/" . $page . '.php')) {
 			# code...
 			show_404();
 		}
 
 		$data['judul'] = $page;
-		$this->load->view('header',$data);
+		$this->load->view('header', $data);
 		$this->load->view($page);
 		$this->load->view('footer');
 	}
