@@ -75,7 +75,7 @@
             <h4 class="category-heading text-uppercase">Badminton</h4>
           </div>
         </div>
-        <div class="row text-center">
+        <!-- <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <img src="assets/img/icon/soccer-ball.png" style="max-width: 50%">
@@ -93,7 +93,7 @@
               <img src="assets/img/icon/volley-ball.png" style="max-width: 50%">
             </span>
             <h4 class="category-heading text-uppercase">Volley</h4>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
