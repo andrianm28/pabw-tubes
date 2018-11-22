@@ -1,79 +1,105 @@
+<!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">Welocome To Grakify</div>
+          <div class="intro-heading text-uppercase ">Grakify your sport with us!</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="">Join Now</a>
+        </div>
+      </div>
+    </header>
 
-    <!-- CONTAINER -->
-    <div class="container">
-      <!-- Info Panel -->
-      <div class="row justify-content-center">
-        <div class="col-10 info-panel">
-          <div class="row">
-            <div class="col-lg">
-              <img src="../assets/img/my-computer.png" alt="GrakVenue"  class="float-left">
-              <h4>Grak<span>Venue</span></h4>
-              <p>Book sport venue <strong>Faster </strong> and <strong>Effortless</strong>  </p>
-            </div>
-
-            <div class="col-lg">
-              <img src="../assets/img/index.png" alt="GrakMates"  class="float-left">
-              <h4>Grak<span>Mates</span></h4>
-              <p> <strong>Grow</strong> your sport <strong>Community</strong></p>
-            </div>
-
-            <div class="col-lg">
-              <img src="../assets/img/purepng.com-target-icon-logologobrand-logoiconslogos-25151993959349wkf.png" alt="GrakMotive"  class="float-left">
-              <h4>Grak<span>Motive</span></h4>
-              <p>Build <strong>Your Transformation </strong>today!</p>
-            </div>
+<!-- features -->
+    <section id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">features</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-soccer-ball-o fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="feature-heading text-uppercase">Grakvenue</h4>
+            <p class="text-muted"></p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-hand-peace-o fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="feature-heading text-uppercase">Grakmates</h4>
+            <p class="text-muted"></p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-hand-grab-o fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="feature-heading text-uppercase">Grakmotive</h4>
+            <p class="text-muted"></p>
           </div>
         </div>
       </div>
-    <!-- END Info Panel -->
-    <!-- GRAKVENUE -->
-      <div class="row GrakVenue">
-        <div class="col">
-          <img src="../assets/img/asdas.jpeg" alt="GrakVenue" class="img-fluid">
+    </section>
+
+    <!-- Search Category -->
+    <section id="category">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Find Your Venue</h2>
+          </div>
         </div>
-        <div class="col">
-          <h3>Grak<span>Venue</span></h3>
-          <h4>Book Sport Venue <span>Faster </span> and <span>Effortless</span> </h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, consectetur in! Ab fuga tenetur nesciunt laborum! Quisquam minima est asperiores.</p>
-          <a href="#" class="btn btn-primary tombol">Booking Now</a>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-soccer-ball-o fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="category-heading text-uppercase">Futsal</h4>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img src="assets/img/icon/basket-ball.png" style="max-width: 50%">
+            </span>
+            <h4 class="category-heading text-uppercase">Basket</h4>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img src="assets/img/icon/badminton.png" style="max-width: 50%">
+            </span>
+            <h4 class="category-heading text-uppercase">Badminton</h4>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img src="assets/img/icon/soccer-ball.png" style="max-width: 50%">
+            </span>
+            <h4 class="category-heading text-uppercase">Soccer</h4>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img src="assets/img/icon/tennis-ball.png" style="max-width: 50%">
+            </span>
+            <h4 class="category-heading text-uppercase">Tennis</h4>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img src="assets/img/icon/volley-ball.png" style="max-width: 50%">
+            </span>
+            <h4 class="category-heading text-uppercase">Volley</h4>
+          </div>
         </div>
       </div>
-    <!-- END GRAKVENUE -->
-    <!-- TESTIMONIAL  -->
-    <SECTION class="testimonial">
+    </section>
+   
 
-      <div class="row justify-content-center quote" >
-        <div class="col-8">
-          <h5>" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, quaerat!. " </h5>
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-6 justify-content-center d-flex" >
-          <figure class="figure">
-            <img src="../assets/img/TEST111.jpg" class="figure-img img-fluid rounded-circle" alt="testi1">
-            <figcaption class="figure-caption">
-              <h5>Fithri Syamsu</h5>
-              <p>Women Athlete of Futsal</p>
-            </figcaption>
-          </figure>
-          <!-- <figure class="figure">
-            <img src="img/TESTI2.jpeg" class="figure-img img-fluid rounded-circle" alt="testi2">
-          </figure> -->
-        </div>
-      </div>
-
-    </SECTION>
-
-
-    <!-- END TERTIMONIAL -->
-
-    </div>
-    <!-- END CONTAINER -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <!--Google Maps-->
+	<iframe class="maps"
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.1731099527906!2d105.27429221430255!3d-5.390569855388904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40db19eaf5c531%3A0x9de19c0d5ff60558!2sLampung+Walk!5e0!3m2!1sid!2sid!4v1541872049106" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+	</iframe>
