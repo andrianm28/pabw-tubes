@@ -9,9 +9,15 @@
                     </div>
                     <div class="card-body panel-form">
                         <h5 class="card-title text-center">Register</h5>
+						
                         <form class="form-signin">
+							<div class="form-label-group">
+                            <input type="text" id="inputnamalengkap" class="form-control" placeholder="Nama Lengkap" required autofocus>
+                            <label for="inoutnamalengkap">Nama Lengkap</label>
+                        </div>
+							
                         <div class="form-label-group">
-                            <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
+                            <input type="text" id="inputUserame" class="form-control" placeholder="Username" required>
                             <label for="inputUserame">Username</label>
                         </div>
 
