@@ -53,7 +53,7 @@ $route['user'] = 'user';
 $route['user/(:any)'] = 'user/view/$1';
 
 $route['login'] = 'login/view';
-$route['user/(:any)'] = 'login/view/$1';
+$route['login/(:any)'] = 'login/view/$1';
 
 $route['default_controller'] = 'page/view';
 $route['(:any)'] = 'page/view/$1';

@@ -25,12 +25,18 @@ class Login extends CI_Controller
     }
     public function index()
     {
-        $this->load->view('login');
+        $this->load->view('index');
     }
-    public function view()
+    public function view($page = 'login')
     {
-        $this->load->view('header');
-        $this->load->view('login');
+        if (!file_exists(APPPATH . "views/" . $page . '.php')) {
+			# code...
+            show_404();
+        }
+
+        $data['judul'] = $page;
+        $this->load->view('header', $data);
+        $this->load->view($page);
         $this->load->view('footer');
     }
 }
