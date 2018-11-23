@@ -53,10 +53,17 @@ $route['user'] = 'user';
 $route['user/(:any)'] = 'user/view/$1';
 
 $route['login'] = 'login/view';
-$route['login/(:any)'] = 'login/view/$1';
+
+$route['login/aksi_login'] = 'login/aksi_login/$1';
+
+$route['register'] = 'register/view';
+$route['register/(:any)'] = 'register/view/$1';
 
 $route['default_controller'] = 'page/view';
 $route['(:any)'] = 'page/view/$1';
+
+$route['home'] = 'page/view';
+$route['home/(:any)'] = 'page/view/$1';
 
 
 

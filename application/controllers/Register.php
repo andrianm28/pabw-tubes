@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Login extends CI_Controller
+class Register extends CI_Controller
 {
 
     /**
@@ -22,14 +22,12 @@ class Login extends CI_Controller
     function __construct()
     {
         parent::__construct();
-        $this->load->model('Login_model');
-
     }
     public function index()
     {
         $this->load->view('index');
     }
-    public function view($page = 'login')
+    public function view($page = 'register')
     {
         if (!file_exists(APPPATH . "views/" . $page . '.php')) {
 			# code...
@@ -40,35 +38,5 @@ class Login extends CI_Controller
         $this->load->view('header', $data);
         $this->load->view($page);
         $this->load->view('footer');
-    }
-    function aksi_login()
-    {
-        $email = $this->input->post('email_user');
-        $password = $this->input->post('password_user');
-        $where = array(
-            'email_user' => $email,
-            'password_user' => $password
-        );
-        $cek = $this->Login_model->cek_login("users", $where)->num_rows();
-        if ($cek > 0) {
-
-            $data_session = array(
-                'nama' => $email,
-                'status' => "login"
-            );
-
-            $this->session->set_userdata($data_session);
-
-            redirect(base_url(""));
-
-        } else {
-            echo "Username dan password salah !";
-        }
-    }
-
-    function logout()
-    {
-        $this->session->sess_destroy();
-        redirect(base_url('login'));
     }
 }
