@@ -56,6 +56,8 @@ $route['login'] = 'login/view';
 
 $route['login/aksi_login'] = 'login/aksi_login/$1';
 
+$route['register/tambah_aksi'] = 'register/tambah_aksi/$1';
+
 $route['register'] = 'register/view';
 $route['register/(:any)'] = 'register/view/$1';
 

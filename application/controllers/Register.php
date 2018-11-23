@@ -19,14 +19,20 @@ class Register extends CI_Controller
      * map to /index.php/welcome/<method_name>
      * @see https://codeigniter.com/user_guide/general/urls.html
      */
+
     function __construct()
     {
         parent::__construct();
+        $this->load->model('Register_model');
+        $this->load->helper('url');
+
     }
-    public function index()
+    function index()
     {
-        $this->load->view('index');
+        $data['user'] = $this->Register_model->tampil_data()->result();
+        $this->load->view('register', $data);
     }
+
     public function view($page = 'register')
     {
         if (!file_exists(APPPATH . "views/" . $page . '.php')) {
@@ -38,5 +44,25 @@ class Register extends CI_Controller
         $this->load->view('header', $data);
         $this->load->view($page);
         $this->load->view('footer');
+    }
+
+    function tambah()
+    {
+        $this->load->view('register');
+    }
+
+    function tambah_aksi()
+    {
+        $username = $this->input->post('username');
+        $email_user = $this->input->post('email_user');
+        $password_user = $this->input->post('password_user');
+
+        $data = array(
+            'username' => $username,
+            'email_user' => $email_user,
+            'password_user' => md5($password_user)
+        );
+        $this->Register_model->input_data($data, 'users');
+        redirect('');
     }
 }

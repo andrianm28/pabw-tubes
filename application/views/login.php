@@ -1,5 +1,5 @@
 
-<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br>
 
     <!-- Custom styles for this template -->
     <link href="assets/css/agency.css" rel="stylesheet">
@@ -21,12 +21,11 @@
                 <label for="inputPassword">Password</label>
               </div>
 
-              <div class="custom-control custom-checkbox mb-3">
-                <input type="checkbox" class="custom-control-input" id="customCheck1">
-                <label class="custom-control-label" for="customCheck1">Remember password</label>
-                <a href="register">Create account</a>
-              </div>
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" name="login">Sign in</button>
+
+              <div >
+                <a class="d-block text-center mt-2 " href="register">Create Account</a>
+              </div>
               <!-- <hr class="my-4">
               <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
               <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button> -->
