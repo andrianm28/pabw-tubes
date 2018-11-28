@@ -2,7 +2,7 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Welocome To Grakify</div>
+          <div class="intro-lead-in">Welcome To Grakify</div>
           <div class="intro-heading text-uppercase ">Grakify your sport with us!</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="">Join Now</a>
         </div>
@@ -75,7 +75,7 @@
             <h4 class="category-heading text-uppercase">Badminton</h4>
           </div>
         </div>
-        <!-- <div class="row text-center">
+        <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <img src="assets/img/icon/soccer-ball.png" style="max-width: 50%">
@@ -93,7 +93,7 @@
               <img src="assets/img/icon/volley-ball.png" style="max-width: 50%">
             </span>
             <h4 class="category-heading text-uppercase">Volley</h4>
-          </div> -->
+          </div>
         </div>
       </div>
     </section>

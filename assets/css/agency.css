@@ -1,7 +1,7 @@
 body {
 	overflow-x: hidden;
 	font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	background: lightyellow;
+	background: lightgray;
 }
 
 p {
@@ -767,4 +767,5 @@ ul.social-buttons li a:hover {
 .panel-form {
 	box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
 	/* border-radius: 12px; */
+	/* margin-top: -50px; */
 }

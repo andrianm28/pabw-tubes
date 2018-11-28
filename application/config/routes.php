@@ -65,7 +65,10 @@ $route['default_controller'] = 'page/view';
 $route['(:any)'] = 'page/view/$1';
 
 $route['home'] = 'page/view';
-$route['home/(:any)'] = 'page/view/$1';
+$route['(:any)'] = 'page/view/$1';
+
+
+$route['filter'] = 'filter/view';
 
 
 
