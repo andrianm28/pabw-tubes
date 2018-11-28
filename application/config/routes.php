@@ -71,6 +71,9 @@ $route['(:any)'] = 'page/view/$1';
 $route['filter'] = 'filter/view';
 
 
+$route['filter'] = 'filter/view';
+
+
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = false;
