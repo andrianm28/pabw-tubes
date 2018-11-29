@@ -54,6 +54,8 @@ $route['user/(:any)'] = 'user/view/$1';
 
 $route['login'] = 'login/view';
 
+$route['homeList'] = 'homeList/view';
+
 $route['login/aksi_login'] = 'login/aksi_login/$1';
 
 $route['register/tambah_aksi'] = 'register/tambah_aksi/$1';

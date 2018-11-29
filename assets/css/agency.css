@@ -769,3 +769,26 @@ ul.social-buttons li a:hover {
 	/* border-radius: 12px; */
 	/* margin-top: -50px; */
 }
+
+.detail-header {
+	background: white;
+	color: #b22222;
+}
+
+.dheader-img {}
+
+.img-detail {
+	margin-right: 0px !important;
+	height: auto;
+	width: 700px;
+	;
+}
+
+.lapangan-detail {
+	margin-right: 0px !important;
+	margin-top: 10px;
+	margin-bottom: ;
+	height: auto;
+	width: 350px;
+	;
+}
