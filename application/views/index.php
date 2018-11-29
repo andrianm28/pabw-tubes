@@ -2,7 +2,7 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Welocome To Grakify</div>
+          <div class="intro-lead-in">Welcome To Grakify</div>
           <div class="intro-heading text-uppercase ">Grakify your sport with us!</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="">Join Now</a>
         </div>
@@ -97,7 +97,7 @@
         </div>
       </div>
     </section>
-   
+  
 
     <!--Google Maps-->
 	<iframe class="maps"
