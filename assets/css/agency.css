@@ -1,19 +1,21 @@
 body {
 	overflow-x: hidden;
 	font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	background: lightgray;
+	background-color: #ffff;
 }
 
 p {
 	line-height: 1.75;
+	font-family: 'Abel', sans-serif;
+	color: #212529;
 }
 
 a {
-	color: #fed136;
+	color: #212529;
 }
 
 a:hover {
-	color: #fec503;
+	color: #b22222;
 }
 
 .text-primary {
@@ -27,7 +29,7 @@ h4,
 h5,
 h6 {
 	font-weight: 700;
-	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 section {
@@ -37,19 +39,20 @@ section {
 section h2.section-heading {
 	font-size: 40px;
 	margin-top: 0;
-	margin-bottom: 40px;
+	margin-bottom: px;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 8px;
 	font-style: bold;
 }
 
 section h3.section-subheading {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 400;
-	font-style: italic;
-	margin-bottom: 75px;
+	font-style: ;
+	margin-bottom: 25px;
 	text-transform: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Abel', sans-serif;
+	color: #212529;
 }
 
 @media (min-width: 768px) {
@@ -116,7 +119,7 @@ img::-moz-selection {
 	text-transform: uppercase;
 	color: white;
 	border: 0;
-	background-color: #fed136;
+	background-color: #b22222;
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -764,35 +767,87 @@ ul.social-buttons li a:hover {
 	background-color: #212529;
 }
 
-.panel-form {
-	box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
-	/* border-radius: 12px; */
-	/* margin-top: -50px; */
+#lapangan{
+	background-color: #b22222;
 }
 
-.detail-header {
-	background: white;
-	color: #b22222;
+#lapangan .more-text{
+	margin-top: 35px;
+	color: white;
+	font-family: abel;
+	letter-spacing: 8;
 }
 
-.dheader-img {}
 
-.img-detail {
-	margin-right: 0px !important;
-	height: auto;
-	width: 700px;
-	;
+#lapangan .lapangan-item {
+  right: 0;
+  margin: 0 0 15px;
 }
 
-.lapangan-detail {
-	margin-right: 0px !important;
-	margin-top: 10px;
-	margin-bottom: ;
-	height: auto;
-	width: 350px;
-	;
+#lapangan .lapangan-item .lapangan-link {
+  position: relative;
+  display: block;
+  max-width: 300px ;
+  margin: 0 auto;
+  cursor: pointer;
 }
-.img-filter{
-	height: auto;
-	width: 600px;
+
+#lapangan .lapangan-item .lapangan-link .lapangan-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: rgba(254, 209, 54, 0.9);
+}
+
+#lapangan .lapangan-item .lapangan-link .lapangan-hover:hover {
+  opacity: 1;
+}
+
+#lapangan .lapangan-item .lapangan-link .lapangan-hover .lapangan-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+#lapangan .lapangan-item .lapangan-link .lapangan-hover .lapangan-hover-content i {
+  margin-top: -12px;
+}
+
+#lapangan .lapangan-item .lapangan-link .lapangan-hover .lapangan-hover-content h3,
+#lapangan .lapangan-item .lapangan-link .lapangan-hover .lapangan-hover-content h4 {
+  margin: 0;
+}
+
+#lapangan .lapangan-item .lapangan-caption {
+  height: 32%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#lapangan .lapangan-item .lapangan-caption h4 {
+  font-size: 20px;
+  margin: 0;
+  text-transform: none;
+}
+
+#lapangan .lapangan-item .lapangan-caption p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-family: Abel, sans-serif;
+}
+
+#lapangan * {
+  z-index: 2;
 }

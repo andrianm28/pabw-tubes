@@ -25,6 +25,8 @@
 
     <!-- Custom styles for this template -->
     <link href="<?php echo base_url() ?>assets/css/agency.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/flickity.css" rel="stylesheet">
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="<?php echo base_url() ?>assets/vendor/jquery/jquery.min.js"></script>
@@ -39,6 +41,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="<?php echo base_url() ?>assets/js/agency.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/flickity.pkgd.js"></script>
+
+    
 
 
   </head>
@@ -56,10 +61,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href=" ">Home</a>
+              <a class="nav-link js-scroll-trigger" href="index">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="">Grakvenue</a>
+              <a class="nav-link js-scroll-trigger" href="homelist">Grakvenue</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="">Grakmates</a>
