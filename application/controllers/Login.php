@@ -46,10 +46,10 @@ class Login extends CI_Controller
         $email = $this->input->post('email_user');
         $password = $this->input->post('password_user');
         $where = array(
-            'email_user' => $email,
-            'password_user' => md5($password)
+            'email' => $email,
+            'password' => md5($password)
         );
-        $cek = $this->Login_model->cek_login("users", $where)->num_rows();
+        $cek = $this->Login_model->cek_login("tbl_users", $where)->num_rows();
         if ($cek > 0) {
 
             $data_session = array(

@@ -7,7 +7,7 @@ class Register_model extends CI_model
     }
     function tampil_data()
     {
-        return $this->db->get('users');
+        return $this->db->get('tbl_users');
     }
 
     function input_data($data, $table)
