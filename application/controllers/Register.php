@@ -58,11 +58,10 @@ class Register extends CI_Controller
         $password_user = $this->input->post('password_user');
 
         $data = array(
-            'username' => $username,
             'email' => $email_user,
             'password' => md5($password_user)
         );
-        $this->Register_model->input_data($data, 'tbl_users');
+        $this->Register_model->input_data($data, 'user');
         redirect('');
     }
 }

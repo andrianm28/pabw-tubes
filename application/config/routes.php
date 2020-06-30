@@ -53,7 +53,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $route['default_controller'] = 'home/view';
 
 // home
-$route['home'] = 'home/view';
+$route['index'] = 'home/view';
 
 // List
 $route['homeList'] = 'homeList/view';
